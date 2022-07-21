@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DayCounter</string>
+    <!-- MainActivity Layout -->
+    <string name="tvstart">show the Startdate</string>
+    <string name="tvend">show the Enddate</string>
+
+    <string name="start_date">Startdate</string>
+    <string name="end_date">Enddate</string>
+    <string name="daysuntil">"days between start and end date"</string>
+
+    <!-- Preference -->
+    <string name="settings">settings</string>
+    <string name="general_preference">General</string>
+    <string name="calculate_days">Calculate Days</string>
+    <string name="calculate_days_between">calculate days between start and end
+        date</string>
+    <string name="no_date_set">No Startdate or Enddate set</string>
+    <string name="logo">Logo</string>
+
+</resources>

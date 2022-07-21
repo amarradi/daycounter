@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvDayCounter"
+            android:gravity="center"
+            android:textColor="@color/md_theme_dark_onSecondary"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+
+
+            android:text="@string/calculate_days_between"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/date_one"
+            app:icon="@drawable/ic_baseline_calendar_month_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/start_date" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_Startdate"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/tvstart"
+            android:textColorHint="#8D6E63" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/date_two"
+            app:icon="@drawable/ic_baseline_calendar_month_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/end_date" />
+
+        <com.google.android.material.textview.MaterialTextView
+
+            android:id="@+id/tv_Enddate"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/tvend"
+            android:textColorHint="#8D6E63" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/result"
+            android:text="@string/calculate_days"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvrRsult"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/md_theme_dark_onPrimary"
+            />
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
